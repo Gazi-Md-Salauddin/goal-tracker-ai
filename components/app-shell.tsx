@@ -126,6 +126,15 @@ export function AppShell({ children }: { children: React.ReactNode }) {
           <div className="flex flex-1 items-center justify-end gap-2">
             <NotificationsBell />
             <ThemeToggle />
+            <Button
+              variant="ghost"
+              size="icon"
+              aria-label="Sign out"
+              className="md:hidden"
+              onClick={() => logout().then(() => router.replace('/login'))}
+            >
+              <LogOut className="h-4 w-4" />
+            </Button>
           </div>
         </header>
 

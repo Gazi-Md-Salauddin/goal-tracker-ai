@@ -10,6 +10,7 @@ import { useAuth } from '@/components/auth-provider';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
+import { GoogleSignInButton } from '@/components/google-sign-in-button';
 
 export default function RegisterPage() {
   const { register } = useAuth();
@@ -103,6 +104,15 @@ export default function RegisterPage() {
                 Create account
               </Button>
             </form>
+            <div className="relative my-6">
+              <div className="absolute inset-0 flex items-center">
+                <span className="w-full border-t border-border" />
+              </div>
+              <div className="relative flex justify-center text-xs uppercase">
+                <span className="bg-card px-2 text-muted-foreground">or</span>
+              </div>
+            </div>
+            <GoogleSignInButton />
             <p className="mt-6 text-center text-sm text-muted-foreground">
               Already have an account?{' '}
               <Link href="/login" className="font-medium text-primary hover:underline">
@@ -114,4 +124,3 @@ export default function RegisterPage() {
       </div>
     </div>
   );
-}

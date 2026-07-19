@@ -71,7 +71,7 @@ export default function Home() {
           <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-glow">
             <Target className="h-5 w-5" />
           </div>
-          <span className="text-lg font-semibold tracking-tight">Goal Buddy AI</span>
+          <span className="text-lg font-semibold tracking-tight">Goal Tracker AI</span>
         </div>
         <nav className="flex items-center gap-2">
           <Button variant="ghost" asChild>
@@ -202,9 +202,9 @@ export default function Home() {
         <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-4 px-6 py-8 text-sm text-muted-foreground sm:flex-row">
           <div className="flex items-center gap-2">
             <Target className="h-4 w-4 text-primary" />
-            <span>Goal Buddy AI</span>
+            <span>Goal Tracker AI</span>
           </div>
-          <p>© {new Date().getFullYear()} Goal Buddy AI. All rights reserved.</p>
+          <p>© {new Date().getFullYear()} Goal Tracker AI. All rights reserved.</p>
         </div>
       </footer>
     </div>

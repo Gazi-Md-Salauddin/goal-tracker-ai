@@ -9,7 +9,7 @@ import { Toaster } from '@/components/ui/sonner';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Goal Buddy AI — Your AI goal accountability partner',
+  title: 'Goal Tracker AI — Your AI goal accountability partner',
   description:
     'Set goals, track progress, and stay motivated with AI-powered coaching, analytics, and timely nudges.',
 };

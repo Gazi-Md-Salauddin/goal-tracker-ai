@@ -112,7 +112,7 @@ function AuthShell({
             <div className="flex h-9 w-9 items-center justify-center rounded-xl bg-primary text-primary-foreground shadow-glow">
               <Target className="h-5 w-5" />
             </div>
-            <span className="text-lg font-semibold tracking-tight">Goal Buddy AI</span>
+            <span className="text-lg font-semibold tracking-tight">Goal Tracker AI</span>
           </div>
           <div className="rounded-2xl border border-border bg-card/80 p-8 backdrop-blur">
             <h1 className="text-2xl font-semibold tracking-tight">{title}</h1>

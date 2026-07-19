@@ -71,13 +71,13 @@ goal-tracker-client
 ## 🚀 Getting Started
 
 ### Clone Repository 
-git clone https://github.com/your-username/goal-tracker-client.git
+git clone https://github.com/Gazi-Md-Salauddin/goal-tracker-ai.git
 ```
 
 ### Go to Project
 
 ```bash
-cd goal-tracker-client
+cd goal-tracker-ai
 ```
 
 ### Install Dependencies
@@ -86,12 +86,6 @@ cd goal-tracker-client
 npm install
 ```
 
-### Create Environment File
-
-```env
-NEXT_PUBLIC_API_URL=http://localhost:5000/api
-NEXT_PUBLIC_APP_URL=http://localhost:3000
-```
 
 ### Start Development Server
 
@@ -102,7 +96,13 @@ npm run dev
 ---
 
 ## 📸 Screenshots
+### Home Page
 
+![Home Page](./Home.png)
+
+### Dashboard
+
+![Dashboard](./dashboard.jpg)
 
 
 ---
@@ -121,13 +121,7 @@ npm run dev
 
 ## 👨‍💻 Author
 
-**Gazi Salauddin**
+**Gazi Md Salauddin**
 
 GitHub:
 https://github.com/Gazi-Md-Salauddin
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License.

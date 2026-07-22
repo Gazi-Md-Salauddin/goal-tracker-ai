@@ -74,7 +74,7 @@ export default function AssistantPage() {
               <Sparkles className="h-6 w-6" />
             </div>
             <div>
-              <h2 className="font-medium">Goal Buddy Coach</h2>
+              <h2 className="font-medium">Goal Tracker Coach</h2>
               <p className="text-sm text-muted-foreground">
                 Ask for a motivational nudge whenever you need one.
               </p>
